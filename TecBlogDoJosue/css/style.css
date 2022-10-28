@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(227, 226, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+a.linkMenu:link {
+    color:white;
+    background-color:none;
+    text-decoration:none;
+    padding: 10px;
+}
+
+a.linkMenu:hover {
+    color:orange;
+    background-color: white;
+    text-decoration:none;
+}
+
+a.linkPostagem:link {
+    color:orange;
+    padding: 0px;
+    text-decoration: none;
+}
+
+a.linkPostagem:hover {
+    color:orange;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-top: 0px;
+}
+
+h2{
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: orange;
+    
+}
+
+
+h5{
+    margin: 0px;
+    position: relative;
+    bottom: 10px;
+}
+
+hr.Conteudo{
+    background-color: rgb(229, 229, 229);
+    height: 0.5px;
+    border: none;
+    margin: 5px;
+    margin-left: 0px;
+    position: relative;
+    bottom: 5px; 
+}
+
+hr.Laterais{
+    height: 0.5px;  
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: dotted;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(189, 188, 188);
+    margin: 5px;
+    margin-left: 0px;
+    position: relative;
+    bottom: 5px;
+    position: relative;
+    top: 0px;
+    
+}
+
+h3{
+    background-color: rgb(164, 162, 162);
+    padding: 5px;
+}
+
+p.DataPostada{
+    font-size: 0.8em;
+    margin-bottom: 15px;
+}
+
+#topo{
+    background: rgba(255, 187, 50, 0.833);
+    text-align: center;
+
+}
+
+#menu{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#titulo{
+    padding: 20px;
+}
+
+#conteudo{
+    position: relative;
+    font-size: 15px;
+    width: 980px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}
+
+.postagensRecentes{
+    background: white;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    left: 740px;
+    top: 0px;
+    display: block;
+    float: right;
+
+}
+
+.categorias{
+    background: white;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    left: 740px;
+    top: 180px;
+    display: block;
+    float: right;
+}
+
+.postagem{
+    background: white;
+    height: 570px;
+    width: 650px;
+    margin: 20px;
+    padding: 20px;  
+}
+
+.rodape{
+    background: rgb(205, 205, 205);
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+
